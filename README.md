@@ -25,3 +25,9 @@ The aim of this project is to be used as a hub of information on Brazilian jiu-j
 ### Credit
 
 - Credit to https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4 where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
+
+- Jiu-jitsu images were acquired on Google images.
+
+- Quotes from renowned BJJ practitioners taken from a website called Fightersmarket.
+
+Credit to the Code Institute Love Running project for codeused in respect of hero image and the styling of the text overlapping the hero image.
