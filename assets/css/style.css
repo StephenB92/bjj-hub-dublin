@@ -1,17 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Condensed&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+body {
+    color: #383838;
+    font-weight: 300;
+    font-family: Roboto-Condensed, sans-serif;
+}
+
 #title {
     float: left;
+    padding: 10px;
+    font-family: Nunito, sans-serif;
+}
+
+#nav-style {
+    float: right;
 }
 
 #nav-style li {
-    list-style-type: none;
     display: inline;
     text-align: right;
-    float: right;
+    float: left;
     margin-right: 20px;
+    margin-top: 20px;
+}
+
+#nav-style a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/BJJ-trainer-demonstrating-a-technique.webp") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-style {
+    background-color: #383838;
 }

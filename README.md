@@ -18,4 +18,10 @@ The aim of this project is to be used as a hub of information on Brazilian jiu-j
 ##### Inquiries
 
 
+### Bugs and Fixes
+
+- As seen in the "Love Running" CI project - I encountered that issue where my nav elements had their order reversed when i set the items to float right. After some googling, I found that the fix was to float the parent of the listed nav items to the right and then, set the li elements beneath to float to the left. 
+
 ### Credit
+
+- Credit to https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4 where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
