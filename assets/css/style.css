@@ -44,6 +44,7 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
+    background-color: #383838;
 }
 
 #hero-image {
