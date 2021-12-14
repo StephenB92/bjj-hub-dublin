@@ -45,6 +45,11 @@ body {
     right: 20px;
 }
 
+#logo img {
+    width: 300px;
+    height: 100px;
+}
+
 #title a {
     text-decoration: none;
     color: inherit;
@@ -70,7 +75,7 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image amd quotes */
+/* hero image and quotes */
 
 #hero-outer {
     height: 600px;
@@ -111,14 +116,15 @@ body {
     border-radius: 5px;
 }
 
-/* history and benefits section styling */
+/* benefits section styling */
 
-#benefits-of-training {
+#benefits-section {
     height: 500px;
     width: 100%;
     overflow: hidden;
     background-color: #702963;
     color: #fff5ee;
+    margin: 0 auto;
 }
 
 #benefits-title {
@@ -126,4 +132,54 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 20px;
+}
+
+hr {
+    border-top: 1px solid white;
+    margin: 5px 0;
+}
+
+.strength {
+    font-family: Nunito, sans-serif;
+    color: white;
+    text-align: justify;
+    width: 30%;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    float: left;
+}
+
+.self-defence {
+    font-family: Nunito, sans-serif;
+    color: white;
+    text-align: justify;
+    width: 30%;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    float: right;
+}
+
+.community {
+    font-family: Nunito, sans-serif;
+    color: white;
+    text-align: justify;
+    width: 30%;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    float: right;
+    position: relative;
+}
+
+.problem-solving {
+    font-family: Nunito, sans-serif;
+    color: white;
+    text-align: justify;
+    width: 30%;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
 }
