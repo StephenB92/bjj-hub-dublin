@@ -14,59 +14,43 @@ body {
 
 /* title and navigation bar styling */
 
-#menu-section {
+.header-section {
     height: 200px;
     width: 100%;
     background-color: #f9f6ee;
 }
 
-#title {
+.header-section_title {
     float: left;
     padding: 10px;
-    font-family: Nunito, sans-serif;
 }
 
-#tag-line {
-    margin-left: 2%;
-    font-family: Nunito, sans-serif;
-    float: left;
-    width: 200px;
-    height: 80px;
-    text-align: left;
-    position: absolute;
-    top: 70px;
-}
-
-#logo {
-    margin-right: auto;
-    float: right;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-}
-
-#logo img {
-    width: 300px;
-    height: 100px;
-}
-
-#title a {
+.header-section_title a {
     text-decoration: none;
     color: inherit;
 }
 
-#nav-style {
+.header-section_tag-line {
+    margin-left: 6%;
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+}
+.header-section_nav {
     float: right;
 }
 
-#nav-style li {
+.header-section_nav li {
     display: inline;
     float: left;
     margin-right: 20px;
     margin-top: 20px;
 }
 
-#nav-style a {
+.header-section_nav a {
     text-decoration: none;
     color: inherit;
 }
@@ -75,9 +59,22 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.header-section_logo {
+    margin-right: auto;
+    float: right;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.header-section_logo img {
+    width: 300px;
+    height: 100px;
+}
+
 /* hero image and quotes */
 
-#hero-outer {
+.hero-section {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -87,14 +84,14 @@ body {
     padding: 10px 0 10px 0;
 }
 
-#hero-image {
+.hero-section_image {
     height: 600px;
     width: 100%;
     background: url("../images/bjj-class.jpg") no-repeat center center;
     background-position: center;
 }
 
-#hero-text-one {
+.hero-section_text-one {
     font-family: Nunito, sans-serif;
     color: white;
     background-color: rgba(54, 69, 79, 0.5);
@@ -106,7 +103,7 @@ body {
     border-radius: 5px;
 }
 
-#hero-text-two {
+.hero-section_text-two {
     font-family: Nunito, sans-serif;
     color: white;
     background-color: rgba(54, 69, 79, 0.5);
@@ -120,7 +117,7 @@ body {
 
 /* benefits section styling */
 
-#benefits-section {
+.benefits-section {
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -129,7 +126,7 @@ body {
     margin: 0 auto;
 }
 
-#benefits-title {
+.benefits-section_title {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -141,7 +138,7 @@ hr {
     margin: 5px 0;
 }
 
-.strength {
+.benefits-section_problem-solving-benefit {
     font-family: Nunito, sans-serif;
     color: white;
     text-align: justify;
@@ -150,9 +147,11 @@ hr {
     border-radius: 5px;
     padding: 20px;
     float: left;
+    position: relative;
+    top: 80px;
 }
 
-.self-defence {
+.benefits-section_self-defence-benefit {
     font-family: Nunito, sans-serif;
     color: white;
     text-align: justify;
@@ -161,9 +160,11 @@ hr {
     border-radius: 5px;
     padding: 20px;
     float: right;
+    position: relative;
+    top: 80px;
 }
 
-.community {
+.benefits-section_community-benefit {
     font-family: Nunito, sans-serif;
     color: white;
     text-align: justify;
@@ -175,7 +176,7 @@ hr {
     position: relative;
 }
 
-.problem-solving {
+.benefits-section_strength-benefit {
     font-family: Nunito, sans-serif;
     color: white;
     text-align: justify;
@@ -185,11 +186,12 @@ hr {
     padding: 20px;
     margin: 0 auto;
     position: relative;
+    top: 80px;
 }
 
 /* motivation section */
 
-#motivation {
+.motivation-section {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -198,26 +200,26 @@ hr {
     margin: 0 auto;
 }
 
-#motivation-title {
+.motivation-section_title {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 20px;
 }
 
-.motivation-video {
+.motivation-section_video {
     text-align: center;
     padding: 40px;
 }
 
-.motivation-video iframe {
+.motivation-section_video iframe {
     height: 400px;
     width: 80%;
 }
 
 /* footer and club information at a glance */
 
-#clubs {
+.clubs-section {
     height: 200px;
     width: 100%;
     overflow: hidden;
@@ -226,7 +228,7 @@ hr {
     margin: 0 auto;
 }
 
-#clubs-title {
+.clubs-section_title {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
