@@ -41,7 +41,11 @@ For future updates to the project, I would like to include a news section that i
     
 ### Wireframe
 
-1. 
+1. Please find the project wireframe for the home page [here.](/assets/wireframes/home.png)
+2. Please find the project wireframe for the  clubs in dublin page [here.](/assets/wireframes/clubs-in-dublin.png)
+3. Please find the project wireframe for the history of bjj page [here.](/assets/wireframes/history-of-bjj.png)
+4. Please find the project wireframe for the inquiries page [here.](/assets/wireframes/inquiries.png)
+5. Please find the project wireframe for the  thank you page [here.](/assets/wireframes/thank-you.png)
 
 
 ### Features
