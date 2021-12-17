@@ -39,13 +39,23 @@ For future updates to the project, I would like to include a news section that i
 4. Video
     * A video embedded from YouTube displaying a diverse range of BJJ practitioners competing. The song playing over the video is "Don't Let Me Down" by The Chainsmokers feat. Daya. The reason behind this video being included is to function as a sort of "highlight reel" to show people what they will be learning should they begin training themselves
     
-### Wireframe
+### Wireframes
 
-1. Please find the project wireframe for the home page [here.](/assets/wireframes/home.png)
-2. Please find the project wireframe for the  clubs in dublin page [here.](/assets/wireframes/clubs-in-dublin.png)
-3. Please find the project wireframe for the history of bjj page [here.](/assets/wireframes/history-of-bjj.png)
-4. Please find the project wireframe for the inquiries page [here.](/assets/wireframes/inquiries.png)
-5. Please find the project wireframe for the  thank you page [here.](/assets/wireframes/thank-you.png)
+#### Desktop
+
+1. Please find the desktop version wireframe for the home page [here.](/assets/wireframes/home.png)
+2. Please find the desktop version wireframe for the  clubs in dublin page [here.](/assets/wireframes/clubs-in-dublin.png)
+3. Please find the desktop version wireframe for the history of bjj page [here.](/assets/wireframes/history-of-bjj.png)
+4. Please find the desktop version wireframe for the inquiries page [here.](/assets/wireframes/inquiries.png)
+5. Please find the desktop version wireframe for the  thank you page [here.](/assets/wireframes/thank-you.png)
+
+#### Mobile
+
+1. Please find the mobile version wireframe for the  home page [here.](/assets/wireframes/home-mobile.png)
+2. Please find the mobile version wireframe for the mobile clubs in dublin page [here.](/assets/wireframes/clubs-mobile.png)
+3. Please find the mobile version wireframe for the history of bjj page [here.](/assets/wireframes/history-mobile.png)
+4. Please find the mobile version wireframe for the inquiries page [here.](/assets/wireframes/inquiries-mobile.png)
+5. Please find the mobile version wireframe for the  thank you page [here.](/assets/wireframes/thanks-mobile.png)
 
 
 ### Features
