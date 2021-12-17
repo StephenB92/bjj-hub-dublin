@@ -221,10 +221,8 @@ body {
 .clubs-section {
     height: 200px;
     width: 100%;
-    overflow: hidden;
     background-color: #202020;
     color: #fff5ee;
-    margin: 0 auto;
 }
 
 .clubs-section_title {
@@ -241,7 +239,6 @@ body {
 }
 
 .clubs-section_roj {
-    font-size: small;
     height: 50px;
     width: 30%;
     clear: both;
@@ -249,7 +246,13 @@ body {
 }
 
 .clubs-section_jungle {
-    font-size: small;
+    height: 50px;
+    width: 30%;
+    clear: both;
+    display: inline-block;
+}
+
+.clubs-section_js {
     height: 50px;
     width: 30%;
     clear: both;
@@ -268,3 +271,58 @@ body {
     border-bottom: 1px solid white;
 }
 
+/* inquiries page */
+
+.query-section_blue {
+    height: 200px;
+    width: 100%;
+    background-color: #4682b4;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.query-section_blue_title {
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.query-section_purple {
+    height: 200px;
+    width: 100%;
+    overflow: visible;
+    background-color: #702963;
+    color: #fff5ee;
+    margin: 0 auto;
+}
+
+.query-section_brown {
+    height: 200px;
+    width: 100%;
+    background-color: #80461b;
+    color: #fff5ee;
+    margin: 0 auto;
+}
+
+.thank-you {
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    background-color: rgba(54, 69, 79, 0.5);
+}
+
+.thank-you_title {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.thank-you a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.thank-you a:hover {
+    color: grey;
+    border-bottom: 1px solid white;
+}

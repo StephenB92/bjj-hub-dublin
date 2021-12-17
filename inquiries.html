@@ -16,7 +16,7 @@
         <nav>
         <ul class="header-section_nav">
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="#">BJJ Clubs in Dublin</a>
@@ -25,7 +25,7 @@
                     <a href="#">History of BJJ</a>
                 </li>
                 <li>
-                    <a href="inquiries.html">Inquiries</a>
+                    <a href="inquiries.html" class="active">Inquiries</a>
                 </li>
         </ul>
         </nav>
@@ -34,65 +34,45 @@
         </div>
     </header>
 
-    <section class="hero-section">
-        <div class="hero-section_image"></div>
-        <div class="hero-section_text-one">
-            <h3>"<em>There is no losing in jiu-jitsu. 
-                You either win or you learn.</em>" - Carlos Gracie Snr.</h3>
-        </div>
-        <div class="hero-section_text-two">
-            <h3>"<em>Jiu jitsu and martial arts do not build character, they reveal it. 
-                We are all born with unmeasurable courage and determination, but it is as we go 
-                through the trials of rigorous training that we rediscover those gifts.</em>" 
-                - Ricardo Almeida</h3>
-        </div>
+    <section class="query-section_blue">
+        <h1><p class="query-section_blue_title"><strong>Inquiries</strong></p></h1>
+        <p>
+            <em>If you have any questions or would like to inquire 
+            about timetables for various clubs - please let us know.</em>
+        </p>
     </section>
-    <section class="benefits-section">
-        <h2 class="benefits-section_title">Why train BJJ?</h2>
-        <div class="benefits-section_problem-solving-benefit">
-            <h3>Improve your problem-solving skills <i class="fas fa-chess"></i></h3>
+    <section class="query-section_purple">
+        <form action="thank-you.html" method="get">
+            <label for=name>Name: </label>
+            <input id="name" type="text" name="name" required>
             <hr>
-            <p>
-                Think of BJJ as a pysical game of chess. In chess, you cannot make
-                a calculated move without anticipating your opponents next step. This makes BJJ not only a workout for the 
-                body, but also the mind! Regular training not only enhances your problem-solving skills, but also your 
-                ability to operate under pressure.
-            </p>
-        </div>
-        <div class="benefits-section_self-defence-benefit">
-            <h3>Learn Self Defence <i class="fas fa-user-shield"></i></h3>
+            <label for=email>Email Address: </label>
+            <input id="email" type="email" name="email" required>
             <hr>
-            <p> 
-                The fundamentals of BJJ are well-rounded instructions on excellent
-                self-defence mechanisms. Where other martial arts focus on punching and kicking,
-                the fundamentals of BJJ teach us that the most effective way 
-                to defend yourself is to close distance and control your opponent. 
-            </p>
-        </div>
-        <div class="benefits-section_community-benefit">
-            <h3>Join an encouraging and supportive community <i class="fas fa-users"></i></h3>
+            <label for="gender">Gender: </label>
+            <select id="gender" required>
+                <option disable selected value> -- Select an Option</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+            <p>Have you trained in BJJ before?</p>
+            <label for="yes">Yes </label>
+            <input id="yes" type="radio" name="previous-training" required>
             <hr>
-            <p>
-                BJJ is not just a sport, for many it is a lifestyle! It is incredibly fun and 
-                appeals to everyone in all walks of life. Not only is it addictive, its fun!
-            </p>
-        </div>
-        <div class="benefits-section_strength-benefit">
-            <h3>Build strength and fitness <i class="fas fa-heartbeat"></i></h3>
+            <label for="no">No </label>
+            <input id="no" type="radio" name="previous-training" required>
             <hr>
-            <p>
-                Learning BJJ involves fun and high-intensity pyhsical activity.
-                You will notice your cardio, strength and endurance improve a great deal!
-            </p>
-        </div> 
+            <label for="query">Query</label>
+            <br>
+            <textarea name="query" id="query" placeholder="Your query here..." rows="10" cols="40"></textarea>
+            <hr>
+            <button><a href="thank-you.html"></a>Submit</button>
+            
+        </form>
     </section>
     
-    <section class="motivation-section">
-        <h2 class="motivation-section_title">BJJ Motivation</h2>
-        <div class="motivation-section_video">
-        <iframe src="https://www.youtube.com/embed/LUmgrve1sZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </section>
+    <section class="query-section_brown"></section>
 
     <footer class="clubs-section">
         <h3 class="clubs-section_title">Start or Continue your BJJ journey today</h3>

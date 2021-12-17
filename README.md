@@ -96,3 +96,5 @@ For future updates to the project, I would like to include a news section that i
 - Credit to the Code Institute Love Running project for code used in respect of the benfits of running page which inspired my section on "why train bjj".
 
 - Credit to the Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
+
+- Credit to [Stack Overflow](https://stackoverflow.com/questions/8605516/default-select-option-as-blank) where I found the following code which allowed me to start my form "gender" datalist at a neutral option but still ensure it was required in order to submit the form. "<option disable selected value> -- Select an Option</option>"
