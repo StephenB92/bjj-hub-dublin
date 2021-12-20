@@ -271,6 +271,128 @@ body {
     border-bottom: 1px solid white;
 }
 
+/* clubs page */
+
+.clubs-page_blue {
+    height: 400px;
+    width: 100%;
+    background-color: #4682b4;
+    color: white;
+    margin: 0 auto;
+    text-align: justify;
+    overflow: auto;
+}
+
+.clubs-page_purple {
+    height: 400px;
+    width: 100%;
+    background-color: #702963;
+    color: #fff5ee;
+    margin: 0 auto;
+    text-align: justify;
+    overflow: auto;
+}
+
+.clubs-page_brown {
+    height: 400px;
+    width: 100%;
+    background-color: #80461b;
+    color: #fff5ee;
+    margin: 0 auto;
+    text-align: justify;
+    overflow: auto;
+}
+
+.clubs-page_title {
+    margin-left: 2.5%;
+    padding-top: 10px;
+}
+
+.clubs-page_about {
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 20px 0;
+}
+
+.clubs-page_about i {
+    position: relative;
+    font-size: 200%;
+    right: 100px;
+    top: 50px;
+}
+
+.clubs-page_contact {
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 20px 0;
+}
+
+.clubs-page_contact-icon {
+    position: relative;
+    font-size: 200%;
+    right: 100px;
+    top: 50px;
+}
+
+.clubs-page_contact-links i {
+    color: white;
+    clear: both;
+    font-size: 120%;
+    padding: 5px;
+}
+
+.clubs-page_contact-links i:hover {
+    color: grey;
+    border-bottom: 1px solid white;
+}
+
+/* history page */
+
+.history-page_blue {
+    height: 200px;
+    width: 100%;
+    background-color: #4682b4;
+    color: white;
+    margin: 0 auto;
+}
+
+.history-page_blue_title {
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+}
+
+.history-page_purple {
+    height: 800px;
+    width: 100%;
+    background-color: #702963;
+    color: #fff5ee;
+    margin: 0 auto;
+}
+
+.history-page_purple_story {
+    width: 75%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.history-page_purple_story hr {
+    padding: 20px;
+}
+.history-page_brown {
+    height: 800px;
+    width: 100%;
+    background-color: #80461b;
+    color: #fff5ee;
+    margin: 0 auto;
+}
+
+.history-page_brown h2 {
+    text-align: center;
+    padding: 5px;
+}
+
 /* inquiries page */
 
 .query-section_blue {
@@ -382,81 +504,6 @@ body {
 }
 
 .thank-you a:hover {
-    color: grey;
-    border-bottom: 1px solid white;
-}
-
-/* clubs page */
-
-.clubs-page_blue {
-    height: 400px;
-    width: 100%;
-    background-color: #4682b4;
-    color: white;
-    margin: 0 auto;
-    text-align: justify;
-    overflow: auto;
-}
-
-.clubs-page_purple {
-    height: 400px;
-    width: 100%;
-    background-color: #702963;
-    color: #fff5ee;
-    margin: 0 auto;
-    text-align: justify;
-    overflow: auto;
-}
-
-.clubs-page_brown {
-    height: 400px;
-    width: 100%;
-    background-color: #80461b;
-    color: #fff5ee;
-    margin: 0 auto;
-    text-align: justify;
-    overflow: auto;
-}
-
-.clubs-page_title {
-    margin-left: 2.5%;
-    padding-top: 10px;
-}
-
-.clubs-page_about {
-    margin-left: 10%;
-    margin-right: 20%;
-    padding: 20px 0;
-}
-
-.clubs-page_about i {
-    position: relative;
-    font-size: 200%;
-    right: 100px;
-    top: 50px;
-}
-
-.clubs-page_contact {
-    margin-left: 10%;
-    margin-right: 20%;
-    padding: 20px 0;
-}
-
-.clubs-page_contact-icon {
-    position: relative;
-    font-size: 200%;
-    right: 100px;
-    top: 50px;
-}
-
-.clubs-page_contact-links i {
-    color: white;
-    clear: both;
-    font-size: 120%;
-    padding: 5px;
-}
-
-.clubs-page_contact-links i:hover {
     color: grey;
     border-bottom: 1px solid white;
 }
