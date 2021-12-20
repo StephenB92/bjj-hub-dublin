@@ -305,6 +305,8 @@ body {
     margin: 0 auto;
 }
 
+/* thank you page */
+
 .thank-you {
     text-align: center;
     font-family: Nunito, sans-serif;
@@ -325,4 +327,33 @@ body {
 .thank-you a:hover {
     color: grey;
     border-bottom: 1px solid white;
+}
+
+/* clubs page */
+
+.clubs-section_blue {
+    height: 400px;
+    width: 100%;
+    background-color: #4682b4;
+    color: white;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.clubs-section_purple {
+    height: 400px;
+    width: 100%;
+    background-color: #702963;
+    color: #fff5ee;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.clubs-section_brown {
+    height: 400px;
+    width: 100%;
+    background-color: #80461b;
+    color: #fff5ee;
+    margin: 0 auto;
+    text-align: justify;
 }

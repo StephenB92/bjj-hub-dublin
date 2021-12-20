@@ -43,19 +43,19 @@ For future updates to the project, I would like to include a news section that i
 
 #### Desktop
 
-1. Please find the desktop version wireframe for the home page [here.](/assets/wireframes/home.png)
-2. Please find the desktop version wireframe for the  clubs in dublin page [here.](/assets/wireframes/clubs-in-dublin.png)
-3. Please find the desktop version wireframe for the history of bjj page [here.](/assets/wireframes/history-of-bjj.png)
-4. Please find the desktop version wireframe for the inquiries page [here.](/assets/wireframes/inquiries.png)
-5. Please find the desktop version wireframe for the  thank you page [here.](/assets/wireframes/thank-you.png)
+1. Please find the desktop version wireframe for the home page [here.](/assets/wireframes/desktop/home.png)
+2. Please find the desktop version wireframe for the  clubs in dublin page [here.](/assets/wireframes/desktop/clubs-in-dublin.png)
+3. Please find the desktop version wireframe for the history of bjj page [here.](/assets/wireframes/desktop/history-of-bjj.png)
+4. Please find the desktop version wireframe for the inquiries page [here.](/assets/wireframes/desktop/inquiries.png)
+5. Please find the desktop version wireframe for the  thank you page [here.](/assets/wireframes/desktop/thank-you.png)
 
 #### Mobile
 
-1. Please find the mobile version wireframe for the  home page [here.](/assets/wireframes/home-mobile.png)
-2. Please find the mobile version wireframe for the mobile clubs in dublin page [here.](/assets/wireframes/clubs-mobile.png)
-3. Please find the mobile version wireframe for the history of bjj page [here.](/assets/wireframes/history-mobile.png)
-4. Please find the mobile version wireframe for the inquiries page [here.](/assets/wireframes/inquiries-mobile.png)
-5. Please find the mobile version wireframe for the  thank you page [here.](/assets/wireframes/thanks-mobile.png)
+1. Please find the mobile version wireframe for the  home page [here.](/assets/wireframes/mobile/home-mobile.png)
+2. Please find the mobile version wireframe for the mobile clubs in dublin page [here.](/assets/wireframes/mobile/clubs-mobile.png)
+3. Please find the mobile version wireframe for the history of bjj page [here.](/assets/wireframes/mobile/history-mobile.png)
+4. Please find the mobile version wireframe for the inquiries page [here.](/assets/wireframes/mobile/inquiries-mobile.png)
+5. Please find the mobile version wireframe for the  thank you page [here.](/assets/wireframes/mobile/thanks-mobile.png)
 
 
 ### Features
