@@ -42,32 +42,32 @@
         </p>
     </section>
     <section class="query-section_purple">
-        <form action="thank-you.html" method="get">
+        <form action="thank-you.html" method="get" class="query-form">
             <label for=name>Name: </label>
-            <input id="name" type="text" name="name" required>
+            <input id="name" type="text" name="name" class="query-section_form_text" required>
             <hr>
             <label for=email>Email Address: </label>
-            <input id="email" type="email" name="email" required>
+            <input id="email" type="email" name="email" class="query-section_form_text" required>
             <hr>
             <label for="gender">Gender: </label>
             <select id="gender" required>
-                <option disable selected value> -- Select an Option</option>
+                <option disable selected value>-- Select an Option --</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
                 <option value="Prefer not to say">Prefer not to say</option>
             </select>
             <p>Have you trained in BJJ before?</p>
-            <label for="yes">Yes </label>
+            <label for="yes">Yes</label>
             <input id="yes" type="radio" name="previous-training" required>
             <hr>
-            <label for="no">No </label>
+            <label for="no">No</label>
             <input id="no" type="radio" name="previous-training" required>
             <hr>
-            <label for="query">Query</label>
+            <label for="query">Please include your Query below</label>
             <br>
             <textarea name="query" id="query" placeholder="Your query here..." rows="10" cols="40"></textarea>
             <hr>
-            <button><a href="thank-you.html"></a>Submit</button>
+            <button class="submit-button"><a href="thank-you.html"></a>Submit</button>
             
         </form>
     </section>
