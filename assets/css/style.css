@@ -216,7 +216,6 @@ body {
     top: 200px;
 }
 
-
 /* footer and club information at a glance */
 
 .clubs-footer {
@@ -382,8 +381,8 @@ body {
 
 /* inquiries page */
 
-.query-section_blue {
-    height: 200px;
+.query-page_blue {
+    height: 700px;
     width: 100%;
     background-color: #4682b4;
     margin: 0 auto;
@@ -391,39 +390,22 @@ body {
     text-align: center;
 }
 
-.query-section_blue_title {
-    padding: 50px 0;
+.query-page_blue_title {
+    padding: 50px 10px;
     text-transform: uppercase;
-    font-size: 150%;
+    text-align: center;
 }
 
-.query-section_purple {
-    height: 300px;
-    width: 100%;
-    background-color: #702963;
-    color: #fff5ee;
-    margin: 0 auto;
-    overflow: visible;
-}
-
-.query-section_brown {
-    height: 300px;
-    width: 100%;
-    background-color: #80461b;
-    color: #fff5ee;
-    margin: 0 auto;
-}
-
-.query-form {
+.query-page_form {
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.7);
     position: absolute;
     left: 30%;
     right: 30%;
     padding: 30px;
 }
 
-.query-section_form_text {
+.query-page_form_text {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -431,7 +413,7 @@ body {
     border-radius: 2px;
 }
 
-.query-form select {
+.query-page_form select {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -439,15 +421,15 @@ body {
     border-radius: 2px;
 }
 
-.query-form option {
+.query-page_form option {
     color: black;
 }
 
-.query-form input:hover {
+.query-page_form input:hover {
     border-color: #f16c6b;
 }
 
-.query-form textarea {
+.query-page_form textarea {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -456,7 +438,7 @@ body {
     resize: none;
 }
 
-.submit-button {
+.query-page_form_submit-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -467,11 +449,19 @@ body {
     display: block;
 }
 
-.submit-button:hover {
+.query-page_form_submit-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
 /* thank you page */
+
+.query-page_background {
+    height: 600px;
+    width: 100%;
+    background: url("../images/bjj-demo.webp") no-repeat center center;
+    background-position: center;
+}
 
 .thank-you {
     text-align: center;

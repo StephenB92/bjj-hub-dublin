@@ -34,29 +34,27 @@
         </div>
     </header>
 
-    <section class="query-section_blue">
-        <div class="query-section_blue_title">
+    <div class="query-page_blue">
+        <div class="query-page_blue_title">
         <h2><strong>Inquiries</strong></h2>
-        </div>
         <p>
             <em>If you have any questions or would like to inquire 
             about timetables for various clubs - please let us know.</em>
         </p>
-    </section>
-    <section class="query-section_purple">
-        <form action="thank-you.html" method="post" class="query-form">
+        </div>
+        <div>
+        <form action="thank-you.html" method="POST" class="query-page_form">
             <label for=name>Name: </label>
-            <input id="name" type="text" name="name" class="query-section_form_text" required>
+            <input id="name" type="text" name="name" class="query-page_form_text" required>
             <hr>
             <label for=email>Email Address: </label>
-            <input id="email" type="email" name="email" class="query-section_form_text" required>
+            <input id="email" type="email" name="email" class="query-page_form_text" required>
             <hr>
             <label for="gender">Gender: </label>
             <select id="gender" required>
-                <option disable selected value>-- Select an Option --</option>
+                <option value="Prefer not to say">Prefer not to say</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
-                <option value="Prefer not to say">Prefer not to say</option>
             </select>
             <p>Have you trained in BJJ before?</p>
             <label for="yes">Yes</label>
@@ -69,12 +67,10 @@
             <br>
             <textarea name="query" id="query" placeholder="Your query here..." rows="10" cols="40"></textarea>
             <hr>
-            <input type="submit" class="submit-button">
-            
+            <input type="submit" class="query-page_form_submit-button">  
         </form>
-    </section>
-    
-    <section class="query-section_brown"></section>
+        </div>
+    </div>
 
     <footer class="clubs-footer">
         <h3 class="clubs-footer_title">Start or Continue your BJJ journey today</h3>
