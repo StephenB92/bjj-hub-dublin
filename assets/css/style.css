@@ -377,18 +377,21 @@ body {
 
 /* Inquiries page */
 
-.query-page_blue {
-    height: 600px;
+.query-page_background {
+    height: 1000px;
     width: 100%;
-    background-color: #4682b4;
-    margin: 0 auto;
-    color: white;
+    background: url("../images/bjj-dojo.jpg") no-repeat center center;
+    background-position: center;
+    color: #fafafa;
 }
 
-.query-page_blue_title {
+.query-page_title {
     padding: 10px 10px;
     text-transform: uppercase;
     text-align: center;
+    background-color: rgba(54, 69, 79, 0.7);
+    border-radius: 5px;
+    width: auto;
 }
 
 /* Credit to Code Institute Love Running project for css code used to style form */
