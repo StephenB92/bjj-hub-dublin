@@ -38,6 +38,7 @@ body {
     position: absolute;
     top: 70px;
 }
+
 .header-section_nav {
     float: right;
 }
@@ -183,6 +184,7 @@ body {
     background: url("../images/bjj-class.jpg") no-repeat center center;
     background-position: center;
 }
+
 .hero-section_text-one {
     font-family: Nunito, sans-serif;
     color: white;
@@ -360,6 +362,7 @@ body {
     margin-right: 12%;
     display: block;
 }
+
 .history-page_blue-story h1 {
     text-align: center;
 }
@@ -388,7 +391,7 @@ body {
     text-align: center;
 }
 
-/*Credit to Code Institute Love Running project for css code used to style form */
+/* Credit to Code Institute Love Running project for css code used to style form */
 
 .query-page_form {
     color: #fff;
@@ -451,14 +454,14 @@ body {
 /* Thank you page */
 
 .thanks-page {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     margin: 0 auto;
     color: white;
 }
 
 .thanks-page_background {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     background: url("../images/bjj-kids.jpg") no-repeat center center;
     background-position: center;
@@ -484,4 +487,48 @@ body {
 .thank-you a:hover {
     color: grey;
     border-bottom: 1px solid white;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 1200px) {
+
+    .clubs-footer {
+        position: sticky;
+        bottom: 0;
+    }
+
+    .history-page_blue {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .history-page_background {
+        visibility: hidden;
+    }
+
+    .history-page_blue-story {
+        visibility: visible;
+        height: 1200px;
+        background-color: #4682b4;
+    }
+
+    .query-page_blue {
+        height: 1200px;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .thanks-page {
+        width: 100%;
+        height: 1200px;
+    }
+
+    .thanks-page_background {
+        width: 100%;
+        height: 1200px;
+    }
 }
