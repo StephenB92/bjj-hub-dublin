@@ -17,7 +17,7 @@ body {
 .header-section {
     height: 200px;
     width: 100%;
-    background-color: #f9f6ee;
+    background-color: #fffafa;
 }
 
 .header-section_title {
@@ -30,7 +30,7 @@ body {
     color: inherit;
 }
 
-.header-section_tag-line {
+.header-section_logo {
     padding: 10px 0 10px 30px;
     width: 200px;
     height: 10px;
@@ -46,7 +46,7 @@ body {
     display: inline;
     float: left;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .header-section_nav a {
@@ -56,19 +56,6 @@ body {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
-
-.header-section_logo {
-    margin-right: auto;
-    text-align: right;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-}
-
-.header-section_logo img {
-    width: 300px;
-    height: 100px;
 }
 
 /* motivation section */
@@ -132,7 +119,7 @@ body {
     padding: 20px;
     float: left;
     position: relative;
-    top: 80px;
+    top: 140px;
 }
 
 .benefits-section_self-defence-benefit {
@@ -145,7 +132,7 @@ body {
     padding: 20px;
     float: right;
     position: relative;
-    top: 80px;
+    top: 140px;
 }
 
 .benefits-section_community-benefit {
@@ -216,7 +203,7 @@ body {
     top: 200px;
 }
 
-/* footer and club information at a glance */
+/* footer with club names and social media at a glance */
 
 .clubs-footer {
     height: 200px;
@@ -382,16 +369,15 @@ body {
 /* inquiries page */
 
 .query-page_blue {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-color: #4682b4;
     margin: 0 auto;
     color: white;
-    text-align: center;
 }
 
 .query-page_blue_title {
-    padding: 50px 10px;
+    padding: 10px 10px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -456,10 +442,17 @@ body {
 
 /* thank you page */
 
-.query-page_background {
-    height: 600px;
+.thanks-page {
+    height: 800px;
     width: 100%;
-    background: url("../images/bjj-demo.webp") no-repeat center center;
+    margin: 0 auto;
+    color: white;
+}
+
+.thanks-page_background {
+    height: 800px;
+    width: 100%;
+    background: url("../images/bjj-kids.jpg") no-repeat center center;
     background-position: center;
 }
 

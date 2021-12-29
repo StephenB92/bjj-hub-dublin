@@ -75,15 +75,12 @@ For future updates to the project, I would like to include a news section that i
 
 - As seen in the "Love Running" CI project - I encountered that issue where my nav elements had their order reversed when i set the items to float right. After some googling, I found that the fix was to float the parent of the listed nav items to the right and then, set the li elements beneath to float to the left. 
 
-- I encountered an issue when inserting the small black belt logo appearing under the nav bar whereas the background did not blend well with the site background. In order to maintain the page layout (starting from white through blue, purple, brown and black) I researched different shades of white using hex values until I found the perfect shade.
-
 ### Credit
 
 - Credit to https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4 where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
 
 - Jiu-jitsu images were acquired on Google images.
-    - Image of bjj class  in hero image acquired from https://static.wixstatic.com/media/4ef5b5_878c01c7e7cf48a78eba4c4e8c9ba076.jpg/v1/fill/w_960,h_640,al_c,q_90/4ef5b5_878c01c7e7cf48a78eba4c4e8c9ba076.jpg
-    - Image of black belt appearing under nav bar: https://www.nicepng.com/png/detail/80-801279_bjj-jiu-jitsu-black-belt-jiu-jitsu-belt.png
+    - Image of bjj class in hero image acquired from https://static.wixstatic.com/media/4ef5b5_878c01c7e7cf48a78eba4c4e8c9ba076.jpg/v1/fill/w_960,h_640,al_c,q_90/4ef5b5_878c01c7e7cf48a78eba4c4e8c9ba076.jpg
 
 - YouTube video on home page uploaded by Culture Cafe'. All rights belong to WME-IMG and Viacom - No copyright infringement intended - the video is entermainment purposes only.
 
@@ -99,7 +96,6 @@ For future updates to the project, I would like to include a news section that i
 
 - Credit to the Code Institute Love Running project for code used to style the form elements on the inquiries page.
 
-- Credit to [Stack Overflow](https://stackoverflow.com/questions/8605516/default-select-option-as-blank) where I found the following code which allowed me to start my form "gender" datalist at a neutral option but still ensure it was required in order to submit the form. "<option disable selected value> -- Select an Option</option>"
-
 - Credit to [flo grappling](https://www.flograppling.com/articles/6744662-the-history-of-brazilian-jiu-jitsu) which is the source of the "history of bjj" page.
 
+Credit to [Canva](https://www.canva.com/tools/logo-maker-q1/?utm_source=google_sem&utm_medium=cpc&utm_campaign=REV_UK_EN_CanvaPro_Logo_EM&utm_term=REV_UK_EN_CanvaPro_Create+Logo_EM&gclsrc=aw.ds&&gclid=Cj0KCQiAq7COBhC2ARIsANsPATEeQJoN4xeqLm9OEQP9CWOR_wikL-DmAb0Gw58R_b1Jlf2s37o0mJ0aAmL3EALw_wcB) which I used to design the logo shown in the header.

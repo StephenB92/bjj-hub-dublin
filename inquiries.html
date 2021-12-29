@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BJJ Hub Dublin - hub of information for Brazilian Jiu-Jitsu in Dublin for beginners and practitioners new to Dublin">
+    <meta name="description" content="BJJ Hub Dublin - hub of information for Brazilian Jiu Jitsu in Dublin for beginners and practitioners new to Dublin">
     <meta name="keywords" content="brazilian jiu-jitsu, jiu jitsu, bjj, dublin, ireland">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>BJJ Hub - Dublin</title>
 </head>
 <body>
+
+    <!--Header-->
+
     <header class="header-section">
         <h1 class="header-section_title"><a href="index.html">BJJ Hub - Dublin</a></h1>
-        <h3 class="header-section_tag-line">Your hub of information for Brazilian Jiu-Jitsu in Dublin.</h3>
+        <div class="header-section_logo">
+            <img src="assets/images/belt-logo.jpg" alt="a white logo with the tagline, Your hub of information for Brazilain Jiu Jitsu in Dublin, with a black jiu jitsu belt underneath">
+        </div>
         <nav>
         <ul class="header-section_nav">
                 <li>
@@ -29,61 +34,66 @@
                 </li>
         </ul>
         </nav>
-        <div class="header-section_logo">
-            <img src="assets/images/jiu-jitsu-belt.png" alt="a white logo illustrating a black jiu jitsu belt">
-        </div>
     </header>
+
+    <!--Query page main body-->
 
     <div class="query-page_blue">
         <div class="query-page_blue_title">
-        <h2><strong>Inquiries</strong></h2>
-        <p>
-            <em>If you have any questions or would like to inquire 
-            about timetables for various clubs - please let us know.</em>
-        </p>
+            <h2><strong>Inquiries</strong></h2>
+                <p>
+                <em>If you have any questions or would like to inquire 
+                about timetables for various clubs - please let us know.</em>
+                </p>
         </div>
+
+    <!--Inquiries Form-->
+
         <div>
-        <form action="thank-you.html" method="POST" class="query-page_form">
-            <label for=name>Name: </label>
-            <input id="name" type="text" name="name" class="query-page_form_text" required>
-            <hr>
-            <label for=email>Email Address: </label>
-            <input id="email" type="email" name="email" class="query-page_form_text" required>
-            <hr>
-            <label for="gender">Gender: </label>
-            <select id="gender" required>
-                <option value="Prefer not to say">Prefer not to say</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select>
-            <p>Have you trained in BJJ before?</p>
-            <label for="yes">Yes</label>
-            <input id="yes" type="radio" name="previous-training" required>
-            <hr>
-            <label for="no">No</label>
-            <input id="no" type="radio" name="previous-training" required>
-            <hr>
-            <label for="query">Please include your Query below</label>
-            <br>
-            <textarea name="query" id="query" placeholder="Your query here..." rows="10" cols="40"></textarea>
-            <hr>
-            <input type="submit" class="query-page_form_submit-button">  
-        </form>
+            <form action="thank-you.html" method="GET" class="query-page_form">
+                <label for=name>Name: </label>
+                <input id="name" type="text" name="name" class="query-page_form_text" required>
+                <hr>
+                <label for=email>Email Address: </label>
+                <input id="email" type="email" name="email" class="query-page_form_text" required>
+                <hr>
+                <label for="gender">Gender: </label>
+                <select id="gender" required>
+                    <option value="">Please select below: </option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <p>Have you trained in BJJ before?</p>
+                <label for="yes">Yes</label>
+                <input id="yes" type="radio" name="previous-training" required>
+                <hr>
+                <label for="no">No</label>
+                <input id="no" type="radio" name="previous-training" required>
+                <hr>
+                <label for="query">Please include your Query below</label>
+                <br>
+                <textarea name="query" id="query" placeholder="Your query here..." rows="10" cols="40"></textarea>
+                <hr>
+                <input type="submit" class="query-page_form_submit-button">  
+            </form>
         </div>
     </div>
+
+    <!--Footer-->
 
     <footer class="clubs-footer">
         <h3 class="clubs-footer_title">Start or Continue your BJJ journey today</h3>
         <div class="clubs-footer_clubs">
             <div class="clubs-footer_club">
-            <p>Republic of Jiu Jitsu</p>
+                <p>Republic of Jiu Jitsu</p>
                 <hr>
                 <a href="https://www.republicofjiujitsu.ie/" target="_blank" rel="noopener" aria-label="Visit the the Republic of Jiu Jitsu website (opens in new tab)"><i class="fas fa-globe"></i></a>
                 <a href="https://www.instagram.com/republic_of_jiujitsu_hq_d2/" target="_blank" rel="noopener" aria-label="Visit the Republic of Jiu Jitsu Instagram Page (opens in new tab)"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/republicofjiujitsu/" target="_blank" rel="noopener" aria-label="Visit the Republic of Jiu Jitsu Facebook Page (opens in new tab)"><i class="fab fa-facebook"></i></a>
             </div>
             <div class="clubs-footer_club">
-            <p>Jungle BJJ Dublin</p>
+                <p>Jungle BJJ Dublin</p>
                 <hr>
                 <a href="https://www.junglebjjdublin.com/" target="_blank" rel="noopener" aria-label="Visit the Jungle BJJ website (opens in new tab)"><i class="fas fa-globe"></i></a>
                 <a href="https://www.instagram.com/junglebjjdublin/" target="_blank" rel="noopener" aria-label="Visit the Jungle BJJ Instagram Page (opens in new tab)"><i class="fab fa-instagram"></i></a>
@@ -91,17 +101,19 @@
             </div>
             <div class="clubs-footer_club">
                 <p>JS Brazilian Jiu Jitsu Academy</p>
-                    <hr>
-                    <a href="https://www.jsbjj.ie/" target="_blank" rel="noopener" aria-label="Visit the JSBJJ website (opens in new tab)"><i class="fas fa-globe"></i></a>
-                    <a href="https://www.instagram.com/jsbjj_hq/?hl=en" target="_blank" rel="noopener" aria-label="Visit the JSBJJ Instagram Page (opens in new tab)"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/JSBJJdublin/" target="_blank" rel="noopener" aria-label="Visit the JSBJJ Facebook Page (opens in new tab)"><i class="fab fa-facebook"></i></a>
-            </div>
-            <div class="clubs-footer_copyright">
-                <p>Copyright © BJJ Hub - Dublin 2021</p>
+                <hr>
+                <a href="https://www.jsbjj.ie/" target="_blank" rel="noopener" aria-label="Visit the JSBJJ website (opens in new tab)"><i class="fas fa-globe"></i></a>
+                <a href="https://www.instagram.com/jsbjj_hq/?hl=en" target="_blank" rel="noopener" aria-label="Visit the JSBJJ Instagram Page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/JSBJJdublin/" target="_blank" rel="noopener" aria-label="Visit the JSBJJ Facebook Page (opens in new tab)"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
+        <div class="clubs-footer_copyright">
+            <p>Copyright © BJJ Hub - Dublin 2021</p>
+        </div>
     </footer>
+
     <!-- font awesome script-->
+
     <script src="https://kit.fontawesome.com/2169e8b8f0.js" crossorigin="anonymous"></script>
 </body>
 </html>
