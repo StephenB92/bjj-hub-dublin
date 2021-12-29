@@ -12,7 +12,7 @@ body {
     font-family: Nunito, sans-serif;
 }
 
-/* title and navigation bar styling */
+/* Title and navigation bar styling */
 
 .header-section {
     height: 200px;
@@ -54,11 +54,13 @@ body {
     color: inherit;
 }
 
+/* Credit to Code Institute Love Running Project for css code used for active class */
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* motivation section */
+/* Motivation section */
 
 .motivation-section {
     height: 600px;
@@ -86,7 +88,7 @@ body {
     width: 80%;
 }
 
-/* benefits section styling */
+/* Benefits section styling */
 
 .benefits-section {
     height: 600px;
@@ -103,6 +105,8 @@ body {
     letter-spacing: 2px;
     padding: 20px;
 }
+
+/* Credit to Code Institute Love Running Project for css code used to style benefits section */
 
 .benefits-section hr {
     border-top: 1px solid white;
@@ -160,7 +164,9 @@ body {
     top: 150px;
 }
 
-/* hero image and quotes */
+/* Hero image and quotes */
+
+/* Credit to Code Institute Love Running Project for css code used to style hero section */
 
 .hero-section {
     height: 600px;
@@ -203,7 +209,7 @@ body {
     top: 200px;
 }
 
-/* footer with club names and social media at a glance */
+/* Footer with club names and social media at a glance */
 
 .clubs-footer {
     height: 200px;
@@ -252,7 +258,7 @@ body {
     padding: 20px;
 }
 
-/* clubs page */
+/* Clubs page */
 
 .clubs-page_blue {
     height: 400px;
@@ -324,7 +330,7 @@ body {
     border-bottom: 1px solid white;
 }
 
-/* history page */
+/* History page */
 
 .history-page_blue {
     height: 600px;
@@ -366,7 +372,7 @@ body {
     padding: 20px;
 }
 
-/* inquiries page */
+/* Inquiries page */
 
 .query-page_blue {
     height: 600px;
@@ -381,6 +387,8 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+
+/*Credit to Code Institute Love Running project for css code used to style form */
 
 .query-page_form {
     color: #fff;
@@ -440,7 +448,7 @@ body {
     color: #f16c6b;
 }
 
-/* thank you page */
+/* Thank you page */
 
 .thanks-page {
     height: 800px;

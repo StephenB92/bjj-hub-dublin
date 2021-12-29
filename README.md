@@ -88,11 +88,11 @@ For future updates to the project, I would like to include a news section that i
 
 - Quotes regarding the benefits of traning obtained from O Athletic.com and The Guardian website
 
-- Credit to the Code Institute Love Running project for code used in respect of hero image and the styling of the text overlapping the hero image.
+- Credit to the Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
 
 - Credit to the Code Institute Love Running project for code used in respect of the benfits of running page which inspired my section on "why train bjj".
 
-- Credit to the Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
+- Credit to the Code Institute Love Running project for code used in respect of hero image and the styling of the text overlapping the hero image.
 
 - Credit to the Code Institute Love Running project for code used to style the form elements on the inquiries page.
 
