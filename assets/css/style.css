@@ -120,7 +120,6 @@ body {
     text-align: justify;
     width: 30%;
     height: 150px;
-    border-radius: 5px;
     padding: 20px;
     float: left;
     position: relative;
@@ -133,7 +132,6 @@ body {
     text-align: justify;
     width: 30%;
     height: 150px;
-    border-radius: 5px;
     padding: 20px;
     float: right;
     position: relative;
@@ -146,7 +144,6 @@ body {
     text-align: justify;
     width: 30%;
     height: 150px;
-    border-radius: 5px;
     padding: 20px;
     margin: 0 auto;
     position: relative;
@@ -158,7 +155,6 @@ body {
     text-align: justify;
     width: 30%;
     height: 150px;
-    border-radius: 5px;
     padding: 20px;
     margin: 0 auto;
     position: relative;
@@ -387,6 +383,7 @@ body {
 
 .query-page_title {
     padding: 10px 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
     background-color: rgba(54, 69, 79, 0.7);
@@ -494,11 +491,36 @@ body {
 
 /* Media queries for responsive design */
 
+/* For screen sizes from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
 
     .clubs-footer {
         position: sticky;
         bottom: 0;
+    }
+
+    .clubs-page_blue {
+        height: 450px;
+        width: 100%;
+    }
+
+    .clubs-page_purple {
+        height: 450px;
+        width: 100%;
+    }
+
+    .clubs-page_brown {
+        height: 450px;
+        width: 100%;
+    }
+
+    .clubs-page_about i {
+        margin-left: 20px;
+    }
+
+    .clubs-page_contact-icon {
+        margin-left: 20px;
     }
 
     .history-page_blue {
@@ -533,5 +555,88 @@ body {
     .thanks-page_background {
         width: 100%;
         height: 1200px;
+    }
+}
+
+/* For screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    .header-section {
+        height: 250px;
+    }
+
+    /* Credit to Code Institute Love Running project for nav styling on screens 950px and below */
+
+    .header-section_nav {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .benefits-section {
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .benefits-section_problem-solving-benefit {
+        clear: both;
+        width: 40%;
+        padding: 20px;
+        display: inline;
+    }
+
+    .benefits-section_self-defence-benefit {
+        clear: both;
+        width: 40%;
+        padding: 20px;
+        display: inline;
+    }
+
+    .benefits-section_community-benefit {
+        clear: both;
+        width: 40%;
+        padding: 20px;
+        display: inline;
+    }
+
+    .benefits-section_strength-benefit {
+        clear: both;
+        width: 40%;
+        padding: 20px;
+        display: inline;
+    }
+
+    .clubs-page_blue {
+        height: 500px;
+        width: 100%;
+    }
+
+    .clubs-page_purple {
+        height: 500px;
+        width: 100%;
+    }
+
+    .clubs-page_brown {
+        height: 500px;
+        width: 100%;
+    }
+
+    .clubs-page_about i {
+        visibility: hidden;
+    }
+
+    .clubs-page_contact-icon {
+        visibility: hidden;
+    }
+
+    .query-page_background {
+        margin: 0 auto
+    }
+
+    .query-page_form {
+        left: 20px;
     }
 }

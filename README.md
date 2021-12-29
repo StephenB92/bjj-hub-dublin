@@ -96,6 +96,8 @@ For future updates to the project, I would like to include a news section that i
 
 - Credit to the Code Institute Love Running project for code used to style the form elements on the inquiries page.
 
+- Credit to Code Institute Love Running project for nav styling on screens 950px and below.
+
 - Credit to [flo grappling](https://www.flograppling.com/articles/6744662-the-history-of-brazilian-jiu-jitsu) which is the source of the "history of bjj" page.
 
 Credit to [Canva](https://www.canva.com/tools/logo-maker-q1/?utm_source=google_sem&utm_medium=cpc&utm_campaign=REV_UK_EN_CanvaPro_Logo_EM&utm_term=REV_UK_EN_CanvaPro_Create+Logo_EM&gclsrc=aw.ds&&gclid=Cj0KCQiAq7COBhC2ARIsANsPATEeQJoN4xeqLm9OEQP9CWOR_wikL-DmAb0Gw58R_b1Jlf2s37o0mJ0aAmL3EALw_wcB) which I used to design the logo shown in the header.
