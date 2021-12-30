@@ -28,7 +28,7 @@ For future updates to the project, I would like to include a news section that i
 ### Design
 
 1. Colour Scheme
-    * The colour scheme represents the five belt levels in Brazilian Jiu Jitsu; white, blue, purple, brown, black. It starts at white in the header, then sections in the order of blue, purple and brown with the footer being black.
+    * The colour scheme on the home and clubs in Dublin pages represent the five belt levels in Brazilian Jiu Jitsu; white, blue, purple, brown, black. It starts at white in the header, then sections in the order of blue, purple and brown with the footer being black.
 
 2. Typography
     * The Roboto-Condensed family is used in the header text and section titles with Nunito being used in the individual section content. Sans-serif is set as the fallback font in every case in case the other fonts cannot be imported correctly. Roboto-Condensed and Nunito are used as they are clean, sleek and modern looking.
@@ -43,55 +43,92 @@ For future updates to the project, I would like to include a news section that i
 
 #### Desktop
 
-1. Please find the desktop version wireframe for the home page [here.](/assets/wireframes/desktop/home.png)
-2. Please find the desktop version wireframe for the  clubs in dublin page [here.](/assets/wireframes/desktop/clubs-in-dublin.png)
-3. Please find the desktop version wireframe for the history of bjj page [here.](/assets/wireframes/desktop/history-of-bjj.png)
-4. Please find the desktop version wireframe for the inquiries page [here.](/assets/wireframes/desktop/inquiries.png)
-5. Please find the desktop version wireframe for the  thank you page [here.](/assets/wireframes/desktop/thank-you.png)
+1. Please find the desktop version wireframe for the home page [here.](assets/wireframes/desktop/home.png)
+2. Please find the desktop version wireframe for the  clubs in dublin page [here.](assets/wireframes/desktop/clubs.png)
+3. Please find the desktop version wireframe for the inquiries page [here.](assets/wireframes/desktop/inquiries.png)
+4. Please find the desktop version wireframe for the  thank you page [here.](assets/wireframes/desktop/thanks.png)
 
 #### Mobile
 
-1. Please find the mobile version wireframe for the  home page [here.](/assets/wireframes/mobile/home-mobile.png)
-2. Please find the mobile version wireframe for the mobile clubs in dublin page [here.](/assets/wireframes/mobile/clubs-mobile.png)
-3. Please find the mobile version wireframe for the history of bjj page [here.](/assets/wireframes/mobile/history-mobile.png)
-4. Please find the mobile version wireframe for the inquiries page [here.](/assets/wireframes/mobile/inquiries-mobile.png)
-5. Please find the mobile version wireframe for the  thank you page [here.](/assets/wireframes/mobile/thanks-mobile.png)
+1. Please find the mobile version wireframe for the  home page [here.](assets/wireframes/mobile/home-mobile.png)
+2. Please find the mobile version wireframe for the mobile clubs in dublin page [here.](assets/wireframes/mobile/clubs-mobile.png)
+3. Please find the mobile version wireframe for the inquiries page [here.](assets/wireframes/mobile/inquiries-mobile.png)
+4. Please find the mobile version wireframe for the  thank you page [here.](assets/wireframes/mobile/thanks-mobile.png)
 
+### Coding Languages Used
+
+1. HTML5
+2. CSS3
 
 ### Features
 
-##### Navigation Bar
+The project is responsive on all screen sizes and includes interactive elements.
 
-##### Home page with quotes from BJJ practitioners
+### Navigation Bar and Header
 
-##### Clubs in Dublin 
+The navigation bar is featured on all pages, is fully functional and includes CSS code which underlines which page the user is currently on. On the left hand side of the screen is the site title and logo. The title also functions as a clickable link to return the user to the home page. The nav bar and accompanying elements in the header are fully responsive also.
+![Header screenshot](assets/screenshots/home_nav-screenshot.png)
 
-##### Inquiries
+### Footer
 
-##### Thank You
+The footer's purpose is to serve as a quick way for users to access the online presence of the clubs referred to on the site. There are 3 clubs named in the footer and each one has a working link to their website, Facebook and Instagram pages. 
+![Footer screenshot](assets/screenshots/footer-screenshot.png)
+
+### Home Page 
+
+1. BJJ in action. The first thing a user will see when they click into the site is an exciting video which shows many of the top BJJ competitors in tournaments. The purpose of this video and its placement is to entice the user to play the video and then be compelled to view what else is on offer on both the site and in practicing BJJ.
+![BJJ in action screenshot](assets/screenshots/bjj_in_action-screenshot.png)
+2. Why train BJJ. This is a small section following the video which is intended to steer the user more towards the sites purpose, to train BJJ! The benefits listed are physical, mental and social.
+![Why train bjj](assets/screenshots/why_train_bjj-screenshot.png)
+3. Hero section with quotes. Following the benefits, we have a hero image which is a close up picture of the inside of a BJJ dojo with 2 motivational quotes from world renowned BJJ practitioners. The thinking behind the image itself is to be more calm and than the intense video above and is a reference to BJJ also being known as the "gentle art".
+![Hero Section](assets/screenshots/hero_section-screenshot.png)
+
+### Clubs in Dublin 
+
+The clubs in Dublin page is essentially the core of the project. The home page is intended to motivate people to train in BJJ and the clubs page tells them where they can do so. There are 3 clubs detailed here and each segment has the clubs name, address, a brief paragraph on their ethos and again, links to their website and social media. 
+![Clubs page screenshot](assets/screenshots/clubs-screenshot.png)
+
+### Inquiries
+
+The inquiries page consists of a query form and a background image of the inside of a BJJ club. The query form is designed so that users can forward queries to the site administrator that relate to the clubs in Dublin or even queries on training on BJJ in general. As this project consists of front-end languages only (HTML and CSS) there is currently no back-end functionality to the form. There is however, a brief page thanking the user for their query.
+![Inquiries page screenshot](assets/screenshots/inquiries-screenshot.png)
+
+### Thank You
+
+When a user submits the above inquiries form, they are greeted with a background image of 2 BJJ practitioners demonstrating a throw and also with a message thanking them for their query. There is also a clickable link in the text to return the user to the homepage. 
+![Thanks page screenshot](assets/screenshots/thanks-screenshot.png)
+
+All of the above are fully responsive on all devices.
+
+### Validator Testing
+1. HTML - No errors were returned on any of the project pages when passing through the official [W3C Markup Validator](https://validator.w3.org/).
+2. CSS - No errors found when passing through the official [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+
+The [W3C Markup Validator](https://validator.w3.org/) was used to validate all HTML used.
+1. Home page passed the W3C Markup Validator with no errors
 
 
 ### Bugs and Fixes
 
 - As seen in the "Love Running" CI project - I encountered that issue where my nav elements had their order reversed when i set the items to float right. After some googling, I found that the fix was to float the parent of the listed nav items to the right and then, set the li elements beneath to float to the left. 
 
-- There is a textarea included at the bottom of the form on the inquiries page which I noted that, in the browser, a user could resize the box and expand it beyond the containing div. As the textarea is already given a sufficient size in the HTML code written, I decided to apply the "resize: none" rule in the CSS rule for this element.
+- There is a textarea included at the bottom of the form on the inquiries page which I noted that, in the browser, a user could resize the box and expand it beyond the containing div. As the textarea is already given a sufficient size in the HTML code written, I decided to apply the "resize: none" rule in the CSS rule for this element to rectify this.
 
 - While writing the media queries for smaller devices, I was having an issue where a lot of white space was appearing beneath the footer. To fix this, I added the overflow: hidden property to my footer to apply only when the screen size is below a certain size.
 
-- As the reader will see from the included wireframes, it had originally been intended that a "history of bjj" page would be included on the site. However, as this page was comprised of just one large block of text, I felt that this was somewhat disruptive to the flow of the project and also less relevant to the purpose of the site as compared to other pages. In future updates, I would like to re-introduce the page to the site, albeit with the text displayed in a way that flows better and is easier digested by users.
-
 - While coding the media queries for mobile devices, an issue occurred where the header logo did not center itself like the nav and title elements when I input the relevant code. Using devtools on Chrome, I found that this was due to the width I had set previously. Once I removed the width setting from the class in CSS I found that the logo could then center itself once the screen size goes lower than 480px without sacrificing it's position on other screen sizes.
+
+- Originally, the home page hero image with quotes had been at the top of the homepage. However, I felt that it would be more enticing to users to find a playable video at the top of the homescreen instead so I switch their positions on the home page.
+
+### Future Enhancements
+
+- It had originally been intended that a "history of bjj" page would be included on the site. However, as this page was comprised of just one large block of text, I felt that this was somewhat disruptive to the flow of the project and also less relevant to the purpose of the site as compared to other pages. In future updates, I would like to re-introduce the page to the site, albeit with the text displayed in a way that flows better and is easier digested by users.
 
 ### Credit
 
+#### Code used
+
 - Credit to [sitepoint](https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4) where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
-
-- YouTube video titled [Jiu Jitsu Motivation](https://www.youtube.com/watch?v=LUmgrve1sZc) on home page uploaded by Culture Cafe'. All rights belong to WME-IMG and Viacom - No copyright infringement intended - the video is entermainment purposes only.
-
-- Quotes from renowned BJJ practitioners taken from a website called [Fightersmarket](https://fightersmarket.com/blogs/fighter/top-10-bjj-quotes-of-all-time).
-
-- Quotes regarding the benefits of traning obtained from [O Athletic](https://www.oathletik.com/benefits-of-brazilian-jiu-jitsu/) and [The Guardian](https://www.theguardian.com/lifeandstyle/2019/sep/14/fitness-tips-brazilian-jiujitsu).
 
 - Credit to Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
 
@@ -103,9 +140,15 @@ For future updates to the project, I would like to include a news section that i
 
 - Credit to Code Institute Love Running project for nav styling on screens 950px and below.
 
-- Credit to [flo grappling](https://www.flograppling.com/articles/6744662-the-history-of-brazilian-jiu-jitsu) which is the source of the "history of bjj" page.
+#### Media
 
-Credit to [Canva](https://www.canva.com/tools/logo-maker-q1/?utm_source=google_sem&utm_medium=cpc&utm_campaign=REV_UK_EN_CanvaPro_Logo_EM&utm_term=REV_UK_EN_CanvaPro_Create+Logo_EM&gclsrc=aw.ds&&gclid=Cj0KCQiAq7COBhC2ARIsANsPATEeQJoN4xeqLm9OEQP9CWOR_wikL-DmAb0Gw58R_b1Jlf2s37o0mJ0aAmL3EALw_wcB) which I used to design the logo shown in the header.
+- YouTube video titled [Jiu Jitsu Motivation](https://www.youtube.com/watch?v=LUmgrve1sZc) on home page uploaded by Culture Cafe'. All rights belong to WME-IMG and Viacom - No copyright infringement intended - the video is entermainment purposes only.
+
+- Quotes from renowned BJJ practitioners taken from a website called [Fightersmarket](https://fightersmarket.com/blogs/fighter/top-10-bjj-quotes-of-all-time).
+
+- Quotes regarding the benefits of traning obtained from [O Athletic](https://www.oathletik.com/benefits-of-brazilian-jiu-jitsu/) and [The Guardian](https://www.theguardian.com/lifeandstyle/2019/sep/14/fitness-tips-brazilian-jiujitsu).
+
+- Credit to [Canva](https://www.canva.com/tools/logo-maker-q1/?utm_source=google_sem&utm_medium=cpc&utm_campaign=REV_UK_EN_CanvaPro_Logo_EM&utm_term=REV_UK_EN_CanvaPro_Create+Logo_EM&gclsrc=aw.ds&&gclid=Cj0KCQiAq7COBhC2ARIsANsPATEeQJoN4xeqLm9OEQP9CWOR_wikL-DmAb0Gw58R_b1Jlf2s37o0mJ0aAmL3EALw_wcB) which I used to design the logo shown in the header.
 
 - Credit to [Artem on Pexels](https://www.pexels.com/photo/healthy-man-person-people-6253346/) for the hero image used on the home page.
 
