@@ -89,15 +89,22 @@ body {
 }
 
 /* Benefits section styling */
-
-.benefits-section {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #702963;
-    color: #fff5ee;
-    margin: 0 auto;
+.item-a {
+    grid-area: top;
 }
+
+.item-b {
+    grid-area: bottom;
+}
+
+.item-c {
+    grid-area: left;
+}
+
+.item-d {
+    grid-area: right;
+}
+
 
 .benefits-section_title {
     text-align: center;
@@ -105,6 +112,80 @@ body {
     letter-spacing: 2px;
     padding: 20px;
 }
+
+.benefits-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: px;
+    background-color: #702963;
+    color: #fff5ee;
+}
+
+
+.grid-header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+}
+
+.grid-item-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+}
+
+.grid-item-right {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+}
+
+.grid-item-bottom {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+
+}
+
+@media screen and (max-width: 680px) {
+    .benefits-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #702963;
+        color: #fff5ee;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+
+    .grid-header {
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+    }
+
+    .grid-item-left {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+
+    }
+
+    .grid-item-right {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+
+    }
+
+    .grid-item-bottom {
+        grid-column: 2 / 3;
+        grid-row: 3 / 3;
+
+    }
+
+
+}
+
 
 /* Credit to Code Institute Love Running Project for css code used to style benefits section */
 
@@ -511,38 +592,6 @@ body {
         padding-top: 25px;
     }
 
-    .benefits-section {
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .benefits-section_problem-solving-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
-
-    .benefits-section_self-defence-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
-
-    .benefits-section_community-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
-
-    .benefits-section_strength-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
 
     .clubs-page_blue {
         height: auto;
@@ -625,6 +674,7 @@ body {
     }
 
 }
+
 /* For screen sizes from 480px wide and down */
 
 @media screen and (max-width: 480px) {
