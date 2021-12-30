@@ -32,7 +32,6 @@ body {
 
 .header-section_logo {
     padding: 10px 0 10px 10px;
-    width: 200px;
     height: 10px;
     text-align: left;
     position: absolute;
@@ -167,6 +166,7 @@ body {
     background-color: #80461b;
     margin: 0 auto;
     padding: 10px 0 10px 0;
+    text-align: justify;
 }
 
 .hero-section_image {
@@ -174,7 +174,7 @@ body {
     width: 100%;
     background: url("../images/bjj-class.jpg") no-repeat center center;
     background-position: center;
-    
+
 }
 
 .hero-section_text-one {
@@ -203,7 +203,7 @@ body {
     top: 200px;
 }
 
-/* Footer with club names and social media at a glance */
+/* Footer with club names and social media links */
 
 .clubs-footer {
     height: 200px;
@@ -475,8 +475,8 @@ body {
         margin-left: 20px;
     }
 
-    .query-page_blue {
-        height: 1200px;
+    .query-page_background {
+        height: 800px;
         width: 100%;
         padding: 0;
         margin: 0 auto;
@@ -484,12 +484,12 @@ body {
 
     .thanks-page {
         width: 100%;
-        height: 1200px;
+        height: 800px;
     }
 
     .thanks-page_background {
         width: 100%;
-        height: 1200px;
+        height: 800px;
     }
 }
 
@@ -597,17 +597,26 @@ body {
         width: 100%;
     }
 
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
     .hero-section_text-one {
         display: flex;
         align-items: center;
         justify-content: center;
         top: 100px;
     }
-    
+
     .hero-section_text-two {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 50px;
+        ;
         bottom: 100px;
     }
 
@@ -615,4 +624,58 @@ body {
         font-size: 80%;
     }
 
+}
+/* For screen sizes from 480px wide and down */
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    .header-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-section_text-one {
+        font-size: 80%;
+        position: static;
+        margin-top: 100px;
+        padding-left: 20px;
+    }
+
+    .hero-section_text-two {
+        font-size: 80%;
+        position: static;
+        margin-top: 100px;
+        padding-right: 20px;
+    }
+
+    .clubs-footer {
+        font-size: 60%;
+    }
+
+    .query-page_title {
+        font-size: 80%;
+    }
+
+    .query-page_background {
+        height: 800px;
+    }
+
+    .query-page_form {
+        margin: 0 auto;
+        left: 0px;
+        right: 0px;
+        width: auto;
+    }
 }

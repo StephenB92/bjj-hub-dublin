@@ -75,25 +75,29 @@ For future updates to the project, I would like to include a news section that i
 
 - As seen in the "Love Running" CI project - I encountered that issue where my nav elements had their order reversed when i set the items to float right. After some googling, I found that the fix was to float the parent of the listed nav items to the right and then, set the li elements beneath to float to the left. 
 
+- There is a textarea included at the bottom of the form on the inquiries page which I noted that, in the browser, a user could resize the box and expand it beyond the containing div. As the textarea is already given a sufficient size in the HTML code written, I decided to apply the "resize: none" rule in the CSS rule for this element.
+
 - While writing the media queries for smaller devices, I was having an issue where a lot of white space was appearing beneath the footer. To fix this, I added the overflow: hidden property to my footer to apply only when the screen size is below a certain size.
 
 - As the reader will see from the included wireframes, it had originally been intended that a "history of bjj" page would be included on the site. However, as this page was comprised of just one large block of text, I felt that this was somewhat disruptive to the flow of the project and also less relevant to the purpose of the site as compared to other pages. In future updates, I would like to re-introduce the page to the site, albeit with the text displayed in a way that flows better and is easier digested by users.
 
+- While coding the media queries for mobile devices, an issue occurred where the header logo did not center itself like the nav and title elements when I input the relevant code. Using devtools on Chrome, I found that this was due to the width I had set previously. Once I removed the width setting from the class in CSS I found that the logo could then center itself once the screen size goes lower than 480px without sacrificing it's position on other screen sizes.
+
 ### Credit
 
-- Credit to https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4 where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
+- Credit to [sitepoint](https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4) where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
 
-- YouTube video on home page uploaded by Culture Cafe'. All rights belong to WME-IMG and Viacom - No copyright infringement intended - the video is entermainment purposes only.
+- YouTube video titled [Jiu Jitsu Motivation](https://www.youtube.com/watch?v=LUmgrve1sZc) on home page uploaded by Culture Cafe'. All rights belong to WME-IMG and Viacom - No copyright infringement intended - the video is entermainment purposes only.
 
-- Quotes from renowned BJJ practitioners taken from a website called Fightersmarket.
+- Quotes from renowned BJJ practitioners taken from a website called [Fightersmarket](https://fightersmarket.com/blogs/fighter/top-10-bjj-quotes-of-all-time).
 
-- Quotes regarding the benefits of traning obtained from O Athletic.com and The Guardian website
+- Quotes regarding the benefits of traning obtained from [O Athletic](https://www.oathletik.com/benefits-of-brazilian-jiu-jitsu/) and [The Guardian](https://www.theguardian.com/lifeandstyle/2019/sep/14/fitness-tips-brazilian-jiujitsu).
 
-- Credit to the Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
+- Credit to Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
 
-- Credit to the Code Institute Love Running project for code used in respect of the benfits of running page which inspired my section on "why train bjj".
+- Credit to Code Institute Love Running project for code used in respect of the benfits of running page which inspired my section on "why train bjj".
 
-- Credit to the Code Institute Love Running project for code used in respect of hero image and the styling of the text overlapping the hero image.
+- Credit to Code Institute Love Running project for code used in respect of hero image and the styling of the text overlapping the hero image.
 
 - Credit to Code Institute Love Running project for code used to style the form elements on the inquiries page.
 
@@ -105,5 +109,7 @@ Credit to [Canva](https://www.canva.com/tools/logo-maker-q1/?utm_source=google_s
 
 - Credit to [Artem on Pexels](https://www.pexels.com/photo/healthy-man-person-people-6253346/) for the hero image used on the home page.
 
-- Credit to [Edward Eyer on Pexels](https://www.pexels.com/photo/men-in-jiujitsu-combat-10610180/) for the hero image used on the history page.
+- Credit to [Artem on Pexels](https://www.pexels.com/photo/healthy-man-person-people-6253300/) for the background image used on the inquiries page.
+
+- Credit to [cottonbro](https://www.pexels.com/photo/boys-practicing-jiu-jitsu-7988956/) for the background image used on the thank you page.
 
