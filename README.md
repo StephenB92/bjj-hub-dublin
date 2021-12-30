@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The aim of this project is to be used as a hub of information on Brazilian jiu-jitsu clubs based in Dublin city centre. As the project includes information on clubs based in Dublin along with their address and links to social media, it is also intended to be used by people who have trained elsewhere before and have recently moved to Dublin and are looking for nearby gyms where they can train.
+The aim of this project is to be used as a hub of information on Brazilian jiu jitsu clubs based in Dublin city centre. As the project includes information on clubs based in Dublin along with their address and links to social media, it is also intended to be used by people who have trained elsewhere before and have recently moved to Dublin and are looking for nearby gyms where they can train.
 
 For future updates to the project, I would like to include a news section that includes up to date information on clubs based in Dublin and upcoming competitions. I would also like to include a news section that relates to the global BJJ community, to include upcoming matches with popular grapplers and also sales on instructional videos online. I would also like to include a section including articles written by the wider BJJ community on subjects such as conditioning and nutrition.
 
@@ -104,9 +104,21 @@ All of the above are fully responsive on all devices.
 1. HTML - No errors were returned on any of the project pages when passing through the official [W3C Markup Validator](https://validator.w3.org/).
 2. CSS - No errors found when passing through the official [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
 
-The [W3C Markup Validator](https://validator.w3.org/) was used to validate all HTML used.
-1. Home page passed the W3C Markup Validator with no errors
+### Responsive Design
 
+The project has been tested through [Am I responsive](http://ami.responsivedesign.is/) and is responsive on all devices.
+
+### Future Enhancements
+
+- It had originally been intended that a "history of bjj" page would be included on the site. However, as this page was comprised of just one large block of text, I felt that this was somewhat disruptive to the flow of the project and also less relevant to the purpose of the site as compared to other pages. In future updates, I would like to re-introduce the page to the site, albeit with the text displayed in a way that flows better and is easier digested by users.
+
+- In future updates, I would like to include a page that includes links to articles written by BJJ practitioners that touch on subjects relating to conditioning, techniques and nutrition relevant to BJJ training.
+
+- In future updates, I would like to keep the clubs in Dublin page up to date with all clubs in Dublin and further update the site with new clubs as they open up.
+
+- In futuer updates, I would like to include a type of calendar page that includes dates for important BJJ events in Dublin such as seminars and competitions.
+
+- In future updates, I would like to include a page that includes technique videos such as those found on YouTube that can be viewed and enjoyed by users.
 
 ### Bugs and Fixes
 
@@ -119,10 +131,6 @@ The [W3C Markup Validator](https://validator.w3.org/) was used to validate all H
 - While coding the media queries for mobile devices, an issue occurred where the header logo did not center itself like the nav and title elements when I input the relevant code. Using devtools on Chrome, I found that this was due to the width I had set previously. Once I removed the width setting from the class in CSS I found that the logo could then center itself once the screen size goes lower than 480px without sacrificing it's position on other screen sizes.
 
 - Originally, the home page hero image with quotes had been at the top of the homepage. However, I felt that it would be more enticing to users to find a playable video at the top of the homescreen instead so I switch their positions on the home page.
-
-### Future Enhancements
-
-- It had originally been intended that a "history of bjj" page would be included on the site. However, as this page was comprised of just one large block of text, I felt that this was somewhat disruptive to the flow of the project and also less relevant to the purpose of the site as compared to other pages. In future updates, I would like to re-introduce the page to the site, albeit with the text displayed in a way that flows better and is easier digested by users.
 
 ### Credit
 
