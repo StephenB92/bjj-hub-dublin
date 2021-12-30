@@ -31,7 +31,7 @@ body {
 }
 
 .header-section_logo {
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 10px;
     width: 200px;
     height: 10px;
     text-align: left;
@@ -86,7 +86,7 @@ body {
 
 .motivation-section_video iframe {
     height: 400px;
-    width: 80%;
+    width: 100%;
 }
 
 /* Benefits section styling */
@@ -108,11 +108,6 @@ body {
 }
 
 /* Credit to Code Institute Love Running Project for css code used to style benefits section */
-
-.benefits-section hr {
-    border-top: 1px solid white;
-    margin: 5px 0;
-}
 
 .benefits-section_problem-solving-benefit {
     font-family: Nunito, sans-serif;
@@ -496,8 +491,7 @@ body {
 @media screen and (max-width: 1200px) {
 
     .clubs-footer {
-        position: sticky;
-        bottom: 0;
+        overflow: hidden;
     }
 
     .clubs-page_blue {
@@ -610,17 +604,17 @@ body {
     }
 
     .clubs-page_blue {
-        height: 500px;
+        height: auto;
         width: 100%;
     }
 
     .clubs-page_purple {
-        height: 500px;
+        height: auto;
         width: 100%;
     }
 
     .clubs-page_brown {
-        height: 500px;
+        height: auto;
         width: 100%;
     }
 
@@ -639,4 +633,45 @@ body {
     .query-page_form {
         left: 20px;
     }
+}
+
+/* For screen sizes from 750px wide and down */
+
+@media screen and (max-width: 750px) {
+    .clubs-page_blue {
+        font-size: 80%;
+        height: auto;
+        width: 100%;
+    }
+
+    .clubs-page_purple {
+        font-size: 80%;
+        height: auto;
+        width: 100%;
+    }
+
+    .clubs-page_brown {
+        font-size: 80%;
+        height: auto;
+        width: 100%;
+    }
+
+    .hero-section_text-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 100px;
+    }
+    
+    .hero-section_text-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 100px;
+    }
+
+    .clubs-footer {
+        font-size: 80%;
+    }
+
 }

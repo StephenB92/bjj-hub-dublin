@@ -75,6 +75,8 @@ For future updates to the project, I would like to include a news section that i
 
 - As seen in the "Love Running" CI project - I encountered that issue where my nav elements had their order reversed when i set the items to float right. After some googling, I found that the fix was to float the parent of the listed nav items to the right and then, set the li elements beneath to float to the left. 
 
+- While writing the media queries for smaller devices, I was having an issue where a lot of white space was appearing beneath the footer. To fix this, I added the overflow: hidden property to my footer to apply only when the screen size is below a certain size.
+
 ### Credit
 
 - Credit to https://www.sitepoint.com/community/t/navigation-bar-tabs-displaying-backwards/7904/4 where I found the fix to the issue I had regarding the styled navigation elements appearing in reverse order.
