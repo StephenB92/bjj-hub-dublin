@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-The aim of this project is to be used as a hub of information on Brazilian jiu jitsu clubs based in Dublin city centre. As the project includes information on clubs based in Dublin along with their address and links to social media, it is also intended to be used by people who have trained elsewhere before and have recently moved to Dublin and are looking for nearby gyms where they can train.
+The aim of this project is to be used as a hub of information on Brazilian jiu jitsu clubs based in Dublin city centre. On the home page, new users who are considering to begin training in BJJ will find an exciting video of BJJ in action and will then proceed to read about the benefits of training, followed by some inspirational quotes before reading more about the available clubs. As the project includes information on clubs based in Dublin along with their address and links to social media, it is also intended to be used by people who have trained elsewhere before and have recently moved to Dublin and are looking for nearby gyms where they can train.
 
 For future updates to the project, I would like to include a news section that includes up to date information on clubs based in Dublin and upcoming competitions. I would also like to include a news section that relates to the global BJJ community, to include upcoming matches with popular grapplers and also sales on instructional videos online. I would also like to include a section including articles written by the wider BJJ community on subjects such as conditioning and nutrition.
 
-View the published site [here](https://stephenb92.github.io/html-css-portfolio-project/)
+View the published site [here](https://stephenb92.github.io/html-css-portfolio-project/).
 
 ## User Experience (UX)
 
@@ -57,12 +57,12 @@ View the published site [here](https://stephenb92.github.io/html-css-portfolio-p
 3. Please find the mobile version wireframe for the inquiries page [here.](assets/wireframes/mobile/inquiries-mobile.png)
 4. Please find the mobile version wireframe for the  thank you page [here.](assets/wireframes/mobile/thanks-mobile.png)
 
-### Coding Languages Used
+## Coding Languages Used
 
 1. HTML5
 2. CSS3
 
-### Features
+## Features
 
 The project is responsive on all screen sizes and includes interactive elements.
 
@@ -111,6 +111,41 @@ All of the above are fully responsive on all devices.
 ### Responsive Design
 
 The project has been tested through [Am I responsive](http://ami.responsivedesign.is/) and is responsive on all devices.
+![Responsive Screenshot](assets/testing-screenshots/responsive-screenshot.png)
+
+### Lighthouse Testing
+
+Each page has been tested using Lighthouse on Chrome Dev Tools.
+
+1. Home page
+    - Desktop results [here](assets/testing-screenshots/home_lighthouse-screenshot.png).
+    - Mobile results [here](assets/testing-screenshots/home-mobile_lighthouse-screenshot.png).
+
+2. Clubs page
+    - Desktop results [here](assets/testing-screenshots/clubs_lighthouse-screenshot.png).
+    - Mobile results [here](assets/testing-screenshots/clubs-mobile_lighthouse-screenshot.png).
+
+3. Inquiries page
+    - Desktop results [here](assets/testing-screenshots/inquiries_lighthouse-screenshot.png).
+    - Mobile results [here](assets/testing-screenshots/inquiries-mobile_lighthouse-screenshot.png).
+
+4. Thanks page
+    - Desktop results [here](assets/testing-screenshots/thanks_lighthouse-screenshot.png).
+    - Mobile results [here](assets/testing-screenshots/thanks-mobile_lighthouse-screenshot.png).
+
+
+## Deployment on GitHub
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub [repository](https://github.com/StephenB92/html-css-portfolio-project).
+2. In the GitHub repository, navigate to the Settings tab.
+3. In the Settings, navigate to the GitHub Pages section.
+4. From the source section drop-down menu, select the main branch.
+5. Once the main branch is selected, click on save.
+6. Once save has been clicked, the page will refresh and a link to the successfully deployed project is shown.
+
+
 
 ### Future Enhancements
 
@@ -170,3 +205,6 @@ The project has been tested through [Am I responsive](http://ami.responsivedesig
 
 - Credit to [cottonbro](https://www.pexels.com/photo/boys-practicing-jiu-jitsu-7988956/) for the background image used on the thank you page.
 
+#### Acknowledgements
+
+- My mentor for continuous helpful feedback.

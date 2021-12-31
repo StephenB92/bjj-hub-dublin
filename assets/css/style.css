@@ -105,7 +105,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     column-gap: 30px;
-    row-gap: px;
+    row-gap: 0px;
     background-color: #702963;
     color: #fff5ee;
     text-align: justify;
@@ -119,19 +119,18 @@ body {
 .benefits-section_grid-item-left {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-
+    padding-left: 20px;
 }
 
 .benefits-section_grid-item-right {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-
+    padding-right: 20px;
 }
 
 .benefits-section_grid-item-bottom {
     grid-column: 2 / 3;
     grid-row: 3 / 3;
-
 }
 
 /* Hero image and quotes */
