@@ -100,6 +100,8 @@ When a user submits the above inquiries form, they are greeted with a background
 
 All of the above are fully responsive on all devices.
 
+## Testing
+
 ### Validator Testing
 1. HTML - No errors were returned on any of the project pages when passing through the official [W3C Markup Validator](https://validator.w3.org/).
 2. CSS - No errors found when passing through the official [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
@@ -132,6 +134,8 @@ The project has been tested through [Am I responsive](http://ami.responsivedesig
 
 - Originally, the home page hero image with quotes had been at the top of the homepage. However, I felt that it would be more enticing to users to find a playable video at the top of the homescreen instead so I switch their positions on the home page.
 
+- In the "why train BJJ" section of the home page, the heading does not appear in the top-center when displaying on larger screens. I was unable to fix this while also maintaining the desired layout of the section content, this will have to be fixed in a future update.
+
 ### Credit
 
 #### Code used
@@ -140,7 +144,7 @@ The project has been tested through [Am I responsive](http://ami.responsivedesig
 
 - Credit to Code Institute Love Running project for code used in respect of the "active" class underlining the page the user is currently on.
 
-- Credit to Code Institute Love Running project for code used in respect of the benfits of running page which inspired my section on "why train bjj".
+- Credit to my mentor Narender Singh for the code used in styling the "why train BJJ" section.
 
 - Credit to Code Institute Love Running project for code used in respect of hero image and the styling of the text overlapping the hero image.
 
