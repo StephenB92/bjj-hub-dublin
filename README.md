@@ -6,6 +6,8 @@ The aim of this project is to be used as a hub of information on Brazilian jiu j
 
 For future updates to the project, I would like to include a news section that includes up to date information on clubs based in Dublin and upcoming competitions. I would also like to include a news section that relates to the global BJJ community, to include upcoming matches with popular grapplers and also sales on instructional videos online. I would also like to include a section including articles written by the wider BJJ community on subjects such as conditioning and nutrition.
 
+View the published site [here](https://stephenb92.github.io/html-css-portfolio-project/)
+
 ## User Experience (UX)
 
 ### User Stories
