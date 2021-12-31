@@ -90,15 +90,6 @@ body {
 
 /* Benefits section styling */
 
-.benefits-section {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #702963;
-    color: #fff5ee;
-    margin: 0 auto;
-}
-
 .benefits-section_title {
     text-align: center;
     text-transform: uppercase;
@@ -106,53 +97,41 @@ body {
     padding: 20px;
 }
 
-/* Credit to Code Institute Love Running Project for css code used to style benefits section */
+/* Credit to my mentor Narender Singh for css code used to style benefits section */
 
-.benefits-section_problem-solving-benefit {
-    font-family: Nunito, sans-serif;
-    color: white;
+.benefits-section {
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: px;
+    background-color: #702963;
+    color: #fff5ee;
     text-align: justify;
-    width: 30%;
-    height: 150px;
-    padding: 20px;
-    float: left;
-    position: relative;
-    top: 140px;
 }
 
-.benefits-section_self-defence-benefit {
-    font-family: Nunito, sans-serif;
-    color: white;
-    text-align: justify;
-    width: 30%;
-    height: 150px;
-    padding: 20px;
-    float: right;
-    position: relative;
-    top: 140px;
+.benefits-section_grid-header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
 }
 
-.benefits-section_community-benefit {
-    font-family: Nunito, sans-serif;
-    color: white;
-    text-align: justify;
-    width: 30%;
-    height: 150px;
-    padding: 20px;
-    margin: 0 auto;
-    position: relative;
+.benefits-section_grid-item-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
 }
 
-.benefits-section_strength-benefit {
-    font-family: Nunito, sans-serif;
-    color: white;
-    text-align: justify;
-    width: 30%;
-    height: 150px;
-    padding: 20px;
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
+.benefits-section_grid-item-right {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+}
+
+.benefits-section_grid-item-bottom {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+
 }
 
 /* Hero image and quotes */
@@ -512,36 +491,7 @@ body {
     }
 
     .benefits-section {
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .benefits-section_problem-solving-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
-
-    .benefits-section_self-defence-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
-
-    .benefits-section_community-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
-    }
-
-    .benefits-section_strength-benefit {
-        clear: both;
-        width: 40%;
-        padding: 20px;
-        display: inline;
+        height: auto;
     }
 
     .clubs-page_blue {
@@ -625,6 +575,48 @@ body {
     }
 
 }
+
+/* For screen sizes from 680px wide and down */
+
+/* Credit to my mentor Narender Singh for css code used to style benefits section */
+
+@media screen and (max-width: 680px) {
+    .benefits-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #702963;
+        color: #fff5ee;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    .benefits-section_grid-header {
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+        padding: 10px;
+    }
+
+    .benefits-section_grid-item-left {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding: 10px;
+    }
+
+    .benefits-section_grid-item-right {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        padding: 10px;
+    }
+
+    .benefits-section_grid-item-bottom {
+        grid-column: 2 / 3;
+        grid-row: 3 / 3;
+        padding: 10px;
+    }
+}
+
 /* For screen sizes from 480px wide and down */
 
 @media screen and (max-width: 480px) {
