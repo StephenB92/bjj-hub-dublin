@@ -671,3 +671,11 @@ body {
         width: auto;
     }
 }
+
+/* For screen sizes from 320px wide and down */
+
+@media screen and (max-width: 320px) {
+    .header-section {
+        font-size: 70%;
+    }
+}
